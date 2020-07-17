@@ -2,6 +2,7 @@
 
 export(add_recession_bars)
 export(formal_args)
+export(highlight_load)
 export(new_project)
 export(plotly_elegant)
 export(use_roxygen_comments)
