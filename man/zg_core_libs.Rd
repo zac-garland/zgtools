@@ -8,7 +8,7 @@ loads favorite functions}
 zg_core_libs(core = T, highlight = F)
 }
 \arguments{
-\item{core}{condensed packages = T}
+\item{core}{condensed packages = T all favs = F}
 
 \item{highlight}{highlights all function names within code in Rmd}
 }

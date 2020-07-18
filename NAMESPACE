@@ -3,6 +3,7 @@
 export(add_recession_bars)
 export(attempt_formal)
 export(formal_args)
+export(git_commit_push)
 export(highlight_load)
 export(new_project)
 export(plotly_elegant)
