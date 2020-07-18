@@ -33,6 +33,7 @@ highlight_load <- function(...) {
   )
 
   package_names <- .packages()
+  package_names <- package_names[!(package_names %in% c("stats", "graphics", "grDevices", "utils", "datasets", "methods", "base"))]
 
   functions_in_file <- paste0("package:", package_names) %>%
     lapply(ls) %>%
