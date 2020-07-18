@@ -17,7 +17,9 @@ attempt_formal <- function(f_path) {
     dplyr::select(package, funs) %>%
     dplyr::filter(
       stringr::str_detect(package, "package:"),
-      !stringr::str_detect(package, "package:base")
+      !stringr::str_detect(package, "package:base"),
+      !stringr::str_detect(package, stringr::str_replace(list.files(pattern=".Rproj$"),
+                                                        paste0(".",tools::file_ext(list.files(pattern=".Rproj$"))),""))
     ) %>%
     dplyr::mutate(
       funs = paste0(" ", funs,"\\("),

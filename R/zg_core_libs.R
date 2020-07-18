@@ -10,7 +10,7 @@
 zg_core_libs <- function(core = T, highlight = F) {
   if (core) {
     if (highlight) {
-      zgtools::highlight_load(
+      highlight_load(
         here, htmlwidgets,
         janitor, lubridate,
         kableExtra, pacman,
@@ -30,7 +30,7 @@ zg_core_libs <- function(core = T, highlight = F) {
     }
   } else {
     if (highlight) {
-      zgtools::highlight_load(
+      highlight_load(
         clipr, flexdashboard,
         here, highcharter,
         htmlwidgets, janitor,
