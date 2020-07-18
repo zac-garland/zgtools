@@ -49,5 +49,5 @@ highlight_load <- function(...) {
   }
   paste(map_chr(functions_in_file, check_name), collapse = " ") %>%
     stringr::str_squish() %>%
-    zgtools::register_keywords()
+    register_keywords()
 }
