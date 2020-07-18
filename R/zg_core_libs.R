@@ -63,3 +63,5 @@ zg_core_libs <- function(core = T, highlight = F) {
 
 
 #' @importFrom magrittr %>%
+
+#' @importFrom rstudioapi restartSession

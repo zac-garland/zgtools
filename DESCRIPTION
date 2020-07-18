@@ -28,6 +28,7 @@ Imports:
   plotly,
   readxl,
   rhandsontable,
+  rstudioapi,
   rvest,
   shiny,
   shinycssloaders,
