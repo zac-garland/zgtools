@@ -13,3 +13,27 @@ Language: es
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Depends:
+  clipr,
+  flexdashboard,
+  here,
+  highcharter,
+  htmlwidgets,
+  janitor,
+  kableExtra,
+  lubridate,
+  pacman,
+  plotly,
+  readxl,
+  rhandsontable,
+  rvest,
+  shiny,
+  shinycssloaders,
+  shinydashboard,
+  shinyWidgets,
+  shinybusy,
+  styler,
+  tidyquant,
+  tidyverse
+Suggests:
+  NCmisc

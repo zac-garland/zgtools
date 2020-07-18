@@ -5,13 +5,13 @@
 #' @export
 #' @examples
 #' economics %>%
-#' plot_ly(x = ~date,
-#'         y = ~uempmed) %>%
+#'   plot_ly(
+#'     x = ~date,
+#'     y = ~uempmed
+#'   ) %>%
 #'   add_lines() %>%
 #'   add_recession_bars()
-
-
-add_recession_bars <- function(plot,extra = NULL) {
+add_recession_bars <- function(plot, extra = NULL) {
   recession_bars <- function(peak, trough) {
     list(
       type = "rect",
@@ -25,22 +25,22 @@ add_recession_bars <- function(plot,extra = NULL) {
     )
   }
 
-  recessions.trim <- filter(recessions.df, Peak >= min(plotly_data(plot)$date, na.rm = T))
+  recessions.trim <- dplyr::filter(recessions.df, Peak >= min(plotly::plotly_data(plot)$date, na.rm = T))
 
-  shapes <- map2(recessions.trim$Peak, recessions.trim$Trough, recession_bars)
+  shapes <- purrr::map2(recessions.trim$Peak, recessions.trim$Trough, recession_bars)
 
   if (!is.null(extra)) {
     shapes[[length(shapes) + 1]] <- extra
   }
 
   plot %>%
-    layout(shapes = shapes)
+    plotly::layout(shapes = shapes)
 }
 
 
 
 
-recessions.df <- read.table(textConnection(
+recessions.df <- utils::read.table(textConnection(
   "Peak, Trough
 1857-06-01, 1858-12-01
 1860-10-01, 1861-06-01
@@ -75,6 +75,4 @@ recessions.df <- read.table(textConnection(
 1990-07-01, 1991-03-01
 2001-03-01, 2001-11-01
 2007-12-01, 2009-06-01"
-),sep = ",",colClasses = c("Date", "Date"), header = TRUE)
-
-
+), sep = ",", colClasses = c("Date", "Date"), header = TRUE)
