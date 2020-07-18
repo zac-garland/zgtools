@@ -13,5 +13,5 @@ highlight_load(...)
 registers r functions in env with highlight.js
 }
 \examples{
-highlight_load(tidyverse,stats)
+highlight_load(tidyverse, stats)
 }

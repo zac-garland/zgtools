@@ -16,8 +16,10 @@ add recession bars to plotly object
 }
 \examples{
 economics \%>\%
-plot_ly(x = ~date,
-        y = ~uempmed) \%>\%
+  plot_ly(
+    x = ~date,
+    y = ~uempmed
+  ) \%>\%
   add_lines() \%>\%
   add_recession_bars()
 }

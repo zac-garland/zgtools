@@ -22,6 +22,7 @@ Depends:
   janitor,
   kableExtra,
   lubridate,
+  magrittr,
   pacman,
   plotly,
   readxl,

@@ -1,12 +1,12 @@
-#' @importFrom magrittr %>%
-
-#' <Description>
+#' zg_core_libs
+#' loads favorite functions
 #'
-#' @param core condensed packages vs all favorites
+#' @param core condensed packages = T
 #' @param highlight highlights all function names within code in Rmd
 #' @export
 #' @examples
 #' zg_core_libs(core = T, highlight = F)
+
 zg_core_libs <- function(core = T, highlight = F) {
   if (core) {
     if (highlight) {
@@ -60,3 +60,6 @@ zg_core_libs <- function(core = T, highlight = F) {
     }
   }
 }
+
+
+#' @importFrom magrittr %>%

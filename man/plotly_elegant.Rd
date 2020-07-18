@@ -14,7 +14,9 @@ plotly dark theme
 }
 \examples{
 mtcars \%>\%
-plot_ly(x = ~cyl,y = ~mpg) \%>\%
-  plotly_elegant(xaxis = list(title = "hey"),
-                 yaxis = list(side = "right"))
+  plot_ly(x = ~cyl, y = ~mpg) \%>\%
+  plotly_elegant(
+    xaxis = list(title = "hey"),
+    yaxis = list(side = "right")
+  )
 }
