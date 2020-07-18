@@ -44,10 +44,14 @@ highlight_load <- function(...) {
     if (character == make.names(character)) {
       character
     } else {
-      ""
+      NA_character_
     }
   }
-  paste(paste(map_chr(functions_in_file, check_name),"("), collapse = " ") %>%
+
+  map_chr(functions_in_file, check_name) %>%
+    na.omit() %>%
+    paste0("(") %>%
+    paste(collapse = " ") %>%
     stringr::str_squish() %>%
     register_keywords()
 }
