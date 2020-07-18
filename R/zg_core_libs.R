@@ -1,7 +1,7 @@
 #' zg_core_libs
 #' loads favorite functions
 #'
-#' @param core condensed packages = T
+#' @param core condensed packages = T all favs = F
 #' @param highlight highlights all function names within code in Rmd
 #' @export
 #' @examples
