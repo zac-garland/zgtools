@@ -50,7 +50,7 @@ highlight_load <- function(...) {
 
   map_chr(functions_in_file, check_name) %>%
     na.omit() %>%
-    paste0("\\(") %>%
+    paste0("(") %>%
     paste(collapse = " ") %>%
     stringr::str_squish() %>%
     register_keywords()
