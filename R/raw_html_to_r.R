@@ -12,6 +12,7 @@
 raw_html_to_r <- function(raw_html, length_of_param = 30) {
 
   to_build <- as.character(raw_html) %>%
+    stringr::str_replace_all(regex("<!--(.*?)-->"),"") %>%
     stringr::str_replace_all("\\n", "") %>%
     stringr::str_split(">") %>%
     unlist() %>%
@@ -58,12 +59,18 @@ raw_html_to_r <- function(raw_html, length_of_param = 30) {
       stringr::str_detect(line, "\\)") & dplyr::lead(line) != ")" ~ paste0(line, ","),
       T ~ line
     )) %>%
+    mutate(line = case_when(
+      str_sub(line,-1,-1) == "," & str_sub(lead(line),1,1) == ")" ~ stringi::stri_reverse(line) %>%
+        str_replace(",","") %>% stringi::stri_reverse(.),
+      T ~ line
+    )) %>%
     dplyr::pull(line) %>%
     paste(collapse = " ") %>%
     paste("shiny::withTags(",.,")") %>%
     stringr::str_replace_all("\\(", "\\(\n") %>%
     stringr::str_replace_all("\\)", "\n\\)") %>%
     stringr::str_replace_all(",", ",\n")
+
 
   fun_args <- to_build %>%
     stats::na.omit() %>%
