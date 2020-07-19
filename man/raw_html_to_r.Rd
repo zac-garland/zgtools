@@ -20,6 +20,3 @@ converts raw html to an r function
 \examples{
 raw_html_to_r('<div class="card" style="max-width: 18rem;"><p style="color-red;">text</p></div>', length_of_param = -1)
 }
-\seealso{
-<links to other help pages>
-}

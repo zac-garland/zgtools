@@ -3,7 +3,6 @@
 #' @param raw_html character vector of html text
 #' @param length_of_param length of original input to use as placeholder
 #' @return html function template copied to clipboard
-#' @seealso <links to other help pages>
 #' @export
 #' @examples
 #' raw_html_to_r('<div class="card" style="max-width: 18rem;"><p style="color-red;">text</p></div>', length_of_param = -1)
@@ -11,9 +10,8 @@
 
 
 raw_html_to_r <- function(raw_html, length_of_param = 30) {
-  raw_html <- c("<div>", as.character(raw_html), "</div>")
 
-  to_build <- raw_html %>%
+  to_build <- as.character(raw_html) %>%
     stringr::str_replace_all("\\n", "") %>%
     stringr::str_split(">") %>%
     unlist() %>%
@@ -62,6 +60,7 @@ raw_html_to_r <- function(raw_html, length_of_param = 30) {
     )) %>%
     dplyr::pull(line) %>%
     paste(collapse = " ") %>%
+    paste("shiny::withTags(",.,")") %>%
     stringr::str_replace_all("\\(", "\\(\n") %>%
     stringr::str_replace_all("\\)", "\n\\)") %>%
     stringr::str_replace_all(",", ",\n")
