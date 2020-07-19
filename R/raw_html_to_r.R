@@ -14,63 +14,63 @@ raw_html_to_r <- function(raw_html, length_of_param = 30) {
   raw_html <- c("<div>", as.character(raw_html), "</div>")
 
   to_build <- raw_html %>%
-    str_replace_all("\\n", "") %>%
-    str_split(">") %>%
+    stringr::str_replace_all("\\n", "") %>%
+    stringr::str_split(">") %>%
     unlist() %>%
-    str_trim() %>%
-    str_squish() %>%
-    tibble(line = .) %>%
-    filter(line != "") %>%
-    mutate(line = paste0(line, " >")) %>%
-    mutate(line = str_replace_all(line, regex("</[a-zA-Z0-9]+ >"), ")")) %>%
-    mutate(line = case_when(
-      str_detect(line, "<") ~ str_replace(line, "<", "") %>%
-        str_replace(" ", "(") %>%
-        str_trim() %>%
-        str_squish(),
+    stringr::str_trim() %>%
+    stringr::str_squish() %>%
+    dplyr::tibble(line = .) %>%
+    dplyr::filter(line != "") %>%
+    dplyr::mutate(line = paste0(line, " >")) %>%
+    dplyr::mutate(line = stringr::str_replace_all(line, stringr::regex("</[a-zA-Z0-9]+ >"), ")")) %>%
+    dplyr::mutate(line = dplyr::case_when(
+      stringr::str_detect(line, "<") ~ stringr::str_replace(line, "<", "") %>%
+        stringr::str_replace(" ", "(") %>%
+        stringr::str_trim() %>%
+        stringr::str_squish(),
       T ~ line
     )) %>%
-    mutate(line = str_replace(line, " >", ">")) %>%
-    mutate(line = case_when(
-      str_count(line, " ") > 0 ~ str_replace_all(line, '" ', '", ') %>%
-        str_replace_all(">", ","),
+    dplyr::mutate(line = stringr::str_replace(line, " >", ">")) %>%
+    dplyr::mutate(line = dplyr::case_when(
+      stringr::str_count(line, " ") > 0 ~ stringr::str_replace_all(line, '" ', '", ') %>%
+        stringr::str_replace_all(">", ","),
       T ~ line
     )) %>%
-    mutate(line = case_when(
-      str_sub(line, -2, -1) == "(>" ~ str_replace_all(line, ">", ""),
-      T ~ str_replace_all(line, ">", ",")
+    dplyr::mutate(line = dplyr::case_when(
+      stringr::str_sub(line, -2, -1) == "(>" ~ stringr::str_replace_all(line, ">", ""),
+      T ~ stringr::str_replace_all(line, ">", ",")
     )) %>%
-    mutate(function_arg = case_when(
-      (str_detect(line, "\\)") & str_length(line) > 1) ~ paste0(str_sub(snakecase::to_snake_case(line), 1, 20)),
+    dplyr::mutate(function_arg = dplyr::case_when(
+      (str_detect(line, "\\)") & stringr::str_length(line) > 1) ~ paste0(str_sub(snakecase::to_snake_case(line), 1, 20)),
       T ~ NA_character_
     )) %>%
-    group_by(function_arg) %>%
-    mutate(function_arg = ifelse(!is.na(function_arg), paste0(function_arg, "_", row_number()), NA_character_)) %>%
-    ungroup() %>%
-    mutate(function_examp = case_when(
+    dplyr::group_by(function_arg) %>%
+    dplyr::mutate(function_arg = ifelse(!is.na(function_arg), paste0(function_arg, "_", dplyr::row_number()), NA_character_)) %>%
+    dplyr::ungroup() %>%
+    dplyr::mutate(function_examp = dplyr::case_when(
       !is.na(function_arg) ~ paste(function_arg, "=", shQuote(str_sub(str_replace(line, "\\)", ""), 1, length_of_param)))
     )) %>%
-    mutate(line = case_when(
+    dplyr::mutate(line = dplyr::case_when(
       !is.na(function_arg) ~ paste0(function_arg, ")"),
       T ~ line
     ))
 
   fun_body <- to_build %>%
-    mutate(line = case_when(
-      str_detect(line, "\\)") & lead(line) != ")" ~ paste0(line, ","),
+    dplyr::mutate(line = dplyr::case_when(
+      stringr::str_detect(line, "\\)") & dplyr::lead(line) != ")" ~ paste0(line, ","),
       T ~ line
     )) %>%
-    pull(line) %>%
+    dplyr::pull(line) %>%
     paste(collapse = " ") %>%
-    str_replace_all("\\(", "\\(\n") %>%
-    str_replace_all("\\)", "\n\\)") %>%
-    str_replace_all(",", ",\n")
+    stringr::str_replace_all("\\(", "\\(\n") %>%
+    stringr::str_replace_all("\\)", "\n\\)") %>%
+    stringr::str_replace_all(",", ",\n")
 
   fun_args <- to_build %>%
-    na.omit() %>%
-    pull(function_examp) %>%
+    stats::na.omit() %>%
+    dplyr::pull(function_examp) %>%
     paste(collapse = ", ") %>%
-    str_replace_all(",", ",\n")
+    stringr::str_replace_all(",", ",\n")
 
 
 
