@@ -2,7 +2,7 @@
 % Please edit documentation in R/raw_html_to_r.R
 \name{raw_html_to_r}
 \alias{raw_html_to_r}
-\title{converts raw html to an r function}
+\title{converts raw html to an r function using withTags}
 \usage{
 raw_html_to_r(raw_html, length_of_param = 30)
 }
@@ -15,7 +15,7 @@ raw_html_to_r(raw_html, length_of_param = 30)
 html function template copied to clipboard
 }
 \description{
-converts raw html to an r function
+converts raw html to an r function using withTags
 }
 \examples{
 raw_html_to_r('<div class="card" style="max-width: 18rem;"><p style="color-red;">text</p></div>', length_of_param = -1)

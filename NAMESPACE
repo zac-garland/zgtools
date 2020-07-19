@@ -3,6 +3,7 @@
 export("%>%")
 export(add_recession_bars)
 export(attempt_formal)
+export(detach_packages)
 export(formal_args)
 export(git_commit_push)
 export(highlight_load)
