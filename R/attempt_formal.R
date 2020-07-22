@@ -17,7 +17,7 @@ attempt_formal <- function(f_path) {
     dplyr::select(package, funs) %>%
     dplyr::filter(
       stringr::str_detect(package, "package:"),
-      !stringr::str_detect(package, "package:base"),
+      !stringr::str_detect(package, "package:stats|package:graphics|package:grDevices|package:utils|package:datasets|package:methods|package:base"),
       !stringr::str_detect(package, stringr::str_replace(list.files(pattern=".Rproj$"),
                                                         paste0(".",tools::file_ext(list.files(pattern=".Rproj$"))),""))
     ) %>%
@@ -28,10 +28,15 @@ attempt_formal <- function(f_path) {
     ) %>%
     dplyr::select(-package)
 
+  replace_dat <- replace_dat %>%
+    mutate_all(str_trim) %>%
+    mutate_all(funs(paste0("\\(",.))) %>%
+    bind_rows(replace_dat)
+
 
   replace_string <- replace_dat %>%
     dplyr::pull(new_fun) %>%
-    purrr::set_names(pull(replace_dat, funs))
+    purrr::set_names(dplyr::pull(replace_dat, funs))
 
   readr::read_lines(f_path) %>%
     stringr::str_replace_all(replace_string) %>%
