@@ -57,14 +57,13 @@ raw_html_to_r <- function(raw_html, length_of_param = 30) {
     styler::style_text()
 
 
-  clipr::write_clip(fun_build)
+  clipr::write_clip(fun_build,allow_non_interactive = T)
 
 
 
-  fun_build %>%
-    print()
-  message(paste("html template copied to clipboard"))
-  return(fun_build)
+  print((fun_build))
+  cat(crayon::cyan$bold("\n\nhtml template copied to clipboard\n\n"))
+  invisible(fun_build)
 }
 
 
