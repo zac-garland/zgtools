@@ -95,8 +95,8 @@ preprocess_html <- function(raw_html, length_of_param = 30) {
   # classify
   self_enclosing <- initial_process %>%
     dplyr::filter(stringr::str_detect(line, "<|>")) %>%
-    tidyr::separate(line, c("other", "tag"), sep = "\\<") %>%
-    tidyr::separate(tag, c("tag", "other"), sep = " ") %>%
+    tidyr::separate(line, c("other", "tag"), sep = "\\<",extra = "drop") %>%
+    tidyr::separate(tag, c("tag", "other"), sep = " ",extra = "drop") %>%
     dplyr::mutate(self_enclosing = dplyr::case_when(stringr::str_detect(tag, "\\/") ~ T, T ~ NA)) %>%
     dplyr::mutate(tag = stringr::str_replace_all(tag, "\\/", "")) %>%
     dplyr::group_by(tag) %>%
@@ -147,7 +147,7 @@ preprocess_html <- function(raw_html, length_of_param = 30) {
         stringr::str_detect(line, "=") ~ stringr::str_split(line, "\\(|,") %>%
           unlist() %>%
           dplyr::tibble(line_attrs = .) %>%
-          tidyr::separate(line_attrs, c("attr_name", "attr_val"), sep = '="') %>%
+          tidyr::separate(line_attrs, c("attr_name", "attr_val"), sep = '="',extra = "drop") %>%
           dplyr::mutate(attr_name = dplyr::case_when(
             !is.na(attr_val) &
               make.names(stringr::str_trim(attr_name)) != stringr::str_trim(attr_name) ~ paste0("`", stringr::str_trim(attr_name), "`"),
