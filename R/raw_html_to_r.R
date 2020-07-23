@@ -123,7 +123,7 @@ preprocess_html <- function(raw_html, length_of_param = 30) {
       (stringr::str_detect(line, "\\)") & stringr::str_length(line) > 1) ~ paste0(stringr::str_sub(snakecase::to_snake_case(line), 1, 20)),
       T ~ NA_character_
     )) %>%
-    dplyr::group_by(function_arg) %>%
+    dplyr::group_by(rowid) %>%
     dplyr::mutate(function_arg = ifelse(!is.na(function_arg), paste0(function_arg, "_", dplyr::row_number()), NA_character_)) %>%
     dplyr::ungroup() %>%
     dplyr::mutate(function_examp = dplyr::case_when(
