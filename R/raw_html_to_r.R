@@ -67,6 +67,14 @@ raw_html_to_r <- function(raw_html, length_of_param = 30) {
 }
 
 
+#' pre processes html prior to formatting
+#'
+#' @param raw_html character vector of html text
+#' @param length_of_param length of original input to use as placeholder
+#' @export
+
+
+
 
 preprocess_html <- function(raw_html, length_of_param = 30) {
   initial_process <-
