@@ -32,9 +32,9 @@ attempt_formal <- function(f_path) {
 
   if (nrow(replace_dat) > 0) {
     replace_dat <- replace_dat %>%
-      mutate_all(str_trim) %>%
-      mutate_all(funs(paste0("\\(", .))) %>%
-      bind_rows(replace_dat)
+      dplyr::mutate_all(str_trim) %>%
+      dplyr::mutate_all(funs(paste0("\\(", .))) %>%
+      dplyr::bind_rows(replace_dat)
 
 
     replace_string <- replace_dat %>%

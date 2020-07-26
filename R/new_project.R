@@ -27,3 +27,4 @@ new_project <- function(package_name, author_name = "First Last", email = "") {
     )
   )
 }
+
