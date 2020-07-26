@@ -18,27 +18,31 @@ attempt_formal <- function(f_path) {
     dplyr::filter(
       stringr::str_detect(package, "package:"),
       !stringr::str_detect(package, "package:stats|package:graphics|package:grDevices|package:utils|package:datasets|package:methods|package:base"),
-      !stringr::str_detect(package, stringr::str_replace(list.files(pattern=".Rproj$"),
-                                                        paste0(".",tools::file_ext(list.files(pattern=".Rproj$"))),""))
+      !stringr::str_detect(package, stringr::str_replace(
+        list.files(pattern = ".Rproj$"),
+        paste0(".", tools::file_ext(list.files(pattern = ".Rproj$"))), ""
+      ))
     ) %>%
     dplyr::mutate(
-      funs = paste0(" ", funs,"\\("),
+      funs = paste0(" ", funs, "\\("),
       new_fun = paste0(" ", package, "::", stringr::str_trim(funs)) %>%
         stringr::str_replace_all("package:", "")
     ) %>%
     dplyr::select(-package)
 
-  replace_dat <- replace_dat %>%
-    mutate_all(str_trim) %>%
-    mutate_all(funs(paste0("\\(",.))) %>%
-    bind_rows(replace_dat)
+  if (nrow(replace_dat) > 0) {
+    replace_dat <- replace_dat %>%
+      mutate_all(str_trim) %>%
+      mutate_all(funs(paste0("\\(", .))) %>%
+      bind_rows(replace_dat)
 
 
-  replace_string <- replace_dat %>%
-    dplyr::pull(new_fun) %>%
-    purrr::set_names(dplyr::pull(replace_dat, funs))
+    replace_string <- replace_dat %>%
+      dplyr::pull(new_fun) %>%
+      purrr::set_names(dplyr::pull(replace_dat, funs))
 
-  readr::read_lines(f_path) %>%
-    stringr::str_replace_all(replace_string) %>%
-    readr::write_lines(f_path)
+    readr::read_lines(f_path) %>%
+      stringr::str_replace_all(replace_string) %>%
+      readr::write_lines(f_path)
+  }
 }

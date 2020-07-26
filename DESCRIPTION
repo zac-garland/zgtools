@@ -2,10 +2,10 @@ Package: zgtools
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Zac",
+           family = "Garland",
            role = c("aut", "cre"),
-           email = "email-me@org.com")
+           email = "zachary.garland@outlook.com")
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8
