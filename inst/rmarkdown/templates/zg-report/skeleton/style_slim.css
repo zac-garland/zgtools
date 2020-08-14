@@ -1,0 +1,251 @@
+/* headers */
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,h6, .h6 {
+    margin-top: auto;
+    font-family: 'Century Gothic';
+    font-size: 1.1em;
+    color: #Ba996E;
+}
+
+
+
+/* body */
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Century Gothic';
+    color: #fff;
+    font-size: 16px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: #1f1f1e;
+    text-transform: lowercase;
+}
+
+/* bold */
+b, strong {
+    color: #61bd70;
+}
+
+/* horizontal rule */
+hr {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 1px double #BA996E;
+}
+
+/* links */
+
+a {
+    color: #BA996E;
+    text-decoration: none;
+}
+
+
+
+
+/* summary box */
+
+#summary-box{
+    height: 50%;
+    width: 80%;
+    border: 1px solid #BA996E;
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    padding: 15px;
+}
+
+#summary-box span{
+  background:#191612;
+  background: #1f1f1e;
+  color:#BA996E;
+  padding:0 10px;
+  font-size:20px;
+  position:relative;
+  top:-28px;
+
+}
+
+#summary-box blockquote {
+    border-left: #000;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+
+
+/* nav tabs */
+
+.nav-tabs {
+    border-bottom: 1px solid #BA996E;
+}
+
+.nav-tabs li{
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+
+
+.nav-tabs>li>a:hover {
+    border-color: #BA996E;
+}
+
+
+
+.nav a:focus, a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #BA996E;
+}
+
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #000;
+    cursor: default;
+    background-color: #BA996E;
+    border: 1px solid #BA996E;
+    border-bottom-color: transparent;
+}
+
+
+/* table */
+tbody{
+  color: #000;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: #fff !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+    color: #fff !important;
+
+
+}
+
+/* remove plotly notifier */
+
+.plotly-notifier {
+    display: none;
+    font-family: "";
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    z-index: 10000;
+    font-size: 0 !important;
+    max-width: 0px !important;
+}
+
+
+/* code folding buttons*/
+
+.btn-default {
+    color: #fff;
+    background-color: #BA996E;
+    border-color: #BA996E;
+}
+
+.btn-default.focus, .btn-default:focus {
+    color: #fff;
+    background-color: #BA996E;
+    border-color: #BA996E;
+}
+
+/* hide global code menu*/
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    display: none;
+}
+
+
+/* code folding window */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #343434;
+  color: #fff;
+  padding: .5em;
+  font-size: 16px;
+  text-transform: none;
+}
+
+.hljs-keyword {
+  color: #00AEEF;
+  font-weight: none;
+}
+
+.hljs-selector-tag {
+  color: #fff;
+}
+
+
+.hljs-attribute {
+  color: #FF652F;
+}
+
+.hljs-string {
+    color: #FF652F;
+    color: #58C554;
+}
+
+.h1js-bracket{
+  color: rgba(128, 128, 128, 0.5);
+}
+
+.hljs-comment, .hljs-quote {
+    color: #0CFFC7;
+}
+
+.hljs-number, .hljs-built_in, .hljs-builtin-name, .hljs-literal, .hljs-type, .hljs-params, .hljs-meta, .hljs-link {
+  color: #fff;
+}
+
+
+/* Set colour for function parameters */
+.hljs-fun-param {
+    color: #fff;
+}
+
+/* Make the pipe and assign operator bold */
+.hljs-pipe, .hljs-assign {
+    font-weight: bold;
+    color: #FF652F;
+}
+
+.h1js-zg-paren {
+  color: pink !important;
+}
+
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #ffffff;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #343434;
+    border: 1px solid #1f1f1e;
+    border-radius: 25px;
+}
+
+pre:not([class]) {
+    background-color: #343434;
+}
+
+
+

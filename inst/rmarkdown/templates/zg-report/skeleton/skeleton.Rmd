@@ -1,0 +1,42 @@
+---
+title: "My Title<br>"
+output:
+    html_document:
+      bootstrap_version: 4-3
+      code_folding: hide
+      css: style_slim.css
+      df_print: paged
+      includes:
+        before_body: header.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set( message = F, warning = F, out.width = "70%",
+                       max.print = 1000)
+```
+
+
+```{r}
+# devtools::install_github("zac-garland/zgtools")
+
+library(zgtools)
+
+zgtools::zg_core_libs(highlight = T)
+
+```
+
+
+## {.tabset}
+
+### tab 1
+
+```{r}
+
+
+
+```
+
+
+
+### tab 2
+

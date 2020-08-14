@@ -1,0 +1,4 @@
+name: zg-report
+description: >
+   custom report example
+create_dir: TRUE

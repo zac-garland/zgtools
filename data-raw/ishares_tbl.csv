@@ -1,0 +1,380 @@
+ticker,name,net_assets,asset_class,sub_asset_class,region,market,location,investment_style
+IVV,iShares Core S&P 500 ETF,213494843307.29,Equity,Large Cap,North America,Developed,United States,Index
+AGG,iShares Core U.S. Aggregate Bond ETF,79431148207.9,Fixed Income,Multi Sectors,North America,Developed,United States,Index
+IEFA,iShares Core MSCI EAFE ETF,69981942626.17001,Equity,All Cap,Global,Developed,Broad,Index
+IWF,iShares Russell 1000 Growth ETF,58326182713.02,Equity,Large/Mid Cap,North America,Developed,United States,Index
+LQD,iShares iBoxx $ Investment Grade Corporate Bond ETF,57579466098.51,Fixed Income,Credit,North America,Developed,United States,Index
+IEMG,iShares Core MSCI Emerging Markets ETF,54150574688.63,Equity,All Cap,Global,Emerging,Broad,Index
+EFA,iShares MSCI EAFE ETF,48773142253.97,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+IJH,iShares Core S&P Mid-Cap ETF,46002812278.840004,Equity,Mid Cap,North America,Developed,United States,Index
+IJR,iShares Core S&P Small-Cap ETF,44946625197.65,Equity,Small Cap,North America,Developed,United States,Index
+IWM,iShares Russell 2000 ETF,41428698850.810005,Equity,Small Cap,North America,Developed,United States,Index
+IWD,iShares Russell 1000 Value ETF,36799525158.83,Equity,Large/Mid Cap,North America,Developed,United States,Index
+USMV,iShares Edge MSCI Min Vol USA ETF,34823238404.8,Equity,Large/Mid Cap,North America,Developed,United States,Index
+HYG,iShares iBoxx $ High Yield Corporate Bond ETF,31632333773.77,Fixed Income,High Yield,North America,Developed,United States,Index
+IAU,iShares Gold Trust,31282834498.62,Commodity,Precious Metals,Global,Developed,Broad,Index
+IVW,iShares S&P 500 Growth ETF,30171708281.9,Equity,Large Cap,North America,Developed,United States,Index
+ITOT,iShares Core S&P Total U.S. Stock Market ETF,27297547969.35,Equity,All Cap,North America,Developed,United States,Index
+IWB,iShares Russell 1000 ETF,23906649606.54,Equity,Large/Mid Cap,North America,Developed,United States,Index
+EEM,iShares MSCI Emerging Markets ETF,23850580928.05,Equity,Large/Mid Cap,Global,Emerging,Broad,Index
+TIP,iShares TIPS Bond ETF,22751233402.56,Fixed Income,Inflation,North America,Developed,United States,Index
+MBB,iShares MBS ETF,22084227363.649998,Fixed Income,Mortgages,North America,Developed,United States,Index
+SHY,iShares 1-3 Year Treasury Bond ETF,21664095889.04,Fixed Income,Government,North America,Developed,United States,Index
+SHV,iShares Short Treasury Bond ETF,21246304295.69,Fixed Income,Government,North America,Developed,United States,Index
+IWR,iShares Russell Mid-Cap ETF,21184014564,Equity,Mid Cap,North America,Developed,United States,Index
+IXUS,iShares Core MSCI Total International Stock ETF,20820348042.32,Equity,All Cap,Global,Developed,Broad,Index
+IEF,iShares 7-10 Year Treasury Bond ETF,20183603365.24,Fixed Income,Government,North America,Developed,United States,Index
+IGSB,iShares Short-Term Corporate Bond ETF,19606604531.16,Fixed Income,Credit,North America,Developed,United States,Index
+QUAL,iShares Edge MSCI USA Quality Factor ETF,19354435252.55,Equity,Large/Mid Cap,North America,Developed,United States,Index
+TLT,iShares 20+ Year Treasury Bond ETF,19163002611.51,Fixed Income,Government,North America,Developed,United States,Index
+MUB,iShares National Muni Bond ETF,18370639401.91,Fixed Income,Municipals,North America,Developed,United States,Index
+PFF,iShares Preferred and Income Securities ETF,16288846318.03,Equity,All Cap,North America,Developed,United States,Index
+EMB,iShares J.P. Morgan USD Emerging Markets Bond ETF,16243086207.59,Fixed Income,Government,Global,Emerging,Broad,Index
+IVE,iShares S&P 500 Value ETF,16214292234.52,Equity,Large Cap,North America,Developed,United States,Index
+SLV,iShares Silver Trust,15249559700.47,Commodity,Precious Metals,Global,Developed,Broad,Index
+GOVT,iShares U.S. Treasury Bond ETF,14198593101.65,Fixed Income,Government,North America,Developed,United States,Index
+DVY,iShares Select Dividend ETF,13364235231,Equity,All Cap,North America,Developed,United States,Index
+IWP,iShares Russell Mid-Cap Growth ETF,13030818453.33,Equity,Mid Cap,North America,Developed,United States,Index
+ACWI,iShares MSCI ACWI ETF,12456086672.52,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+DGRO,iShares Core Dividend Growth ETF,11743021311.730001,Equity,All Cap,North America,Developed,United States,Index
+IEI,iShares 3-7 Year Treasury Bond ETF,11514545405.69,Fixed Income,Government,North America,Developed,United States,Index
+IGIB,iShares Intermediate-Term Corporate Bond ETF,11247363718.16,Fixed Income,Credit,North America,Developed,United States,Index
+MTUM,iShares Edge MSCI USA Momentum Factor ETF,11075827700.730001,Equity,Large/Mid Cap,North America,Developed,United States,Index
+EFAV,iShares Edge MSCI Min Vol EAFE ETF,10886994239.849998,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+IWS,iShares Russell Mid-Cap Value ETF,10279915081,Equity,Mid Cap,North America,Developed,United States,Index
+EWJ,iShares MSCI Japan ETF,9967370328.53,Equity,Large/Mid Cap,Asia Pacific,Developed,Japan,Index
+IWV,iShares Russell 3000 ETF,9812398463.240002,Equity,All Cap,North America,Developed,United States,Index
+IUSG,iShares Core S&P U.S. Growth ETF,9783985902.9,Equity,All Cap,North America,Developed,United States,Index
+IBB,iShares Nasdaq Biotechnology ETF,9476719963.130001,Equity,All Cap,North America,Developed,United States,Index
+IWO,iShares Russell 2000 Growth ETF,9095468771.68,Equity,Small Cap,North America,Developed,United States,Index
+SCZ,iShares MSCI EAFE Small-Cap ETF,8968194998,Equity,Small Cap,Global,Developed,Broad,Index
+IWN,iShares Russell 2000 Value ETF,8562813384.2,Equity,Small Cap,North America,Developed,United States,Index
+ESGU,iShares ESG MSCI USA ETF,8388100208.06,Equity,Large/Mid Cap,North America,Developed,United States,Index
+EFG,iShares MSCI EAFE Growth ETF,8298997411.1,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+IHI,iShares U.S. Medical Devices ETF,7891379537.5,Equity,All Cap,North America,Developed,United States,Index
+OEF,iShares S&P 100 ETF,7034619714.820001,Equity,Large Cap,North America,Developed,United States,Index
+IJK,iShares S&P Mid-Cap 400 Growth ETF,6935241386.44,Equity,Mid Cap,North America,Developed,United States,Index
+IUSV,iShares Core S&P U.S. Value ETF,6542437648.83,Equity,All Cap,North America,Developed,United States,Index
+EFV,iShares MSCI EAFE Value ETF,6199315276.57,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+IYW,iShares U.S. Technology ETF,6118366698.22,Equity,All Cap,North America,Developed,United States,Index
+VLUE,iShares Edge MSCI USA Value Factor ETF,5888993860.18,Equity,Large/Mid Cap,North America,Developed,United States,Index
+ACWV,iShares Edge MSCI Min Vol Global ETF,5870375741.01,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+MCHI,iShares MSCI China ETF,5853070636.51,Equity,Large/Mid Cap,Asia Pacific,Emerging,China,Index
+FLOT,iShares Floating Rate Bond ETF,5834524067.22,Fixed Income,Credit,North America,Developed,United States,Index
+HDV,iShares Core High Dividend ETF,5758208619.71,Equity,All Cap,North America,Developed,United States,Index
+NEAR,iShares Short Maturity Bond ETF,5732792767.45,Fixed Income,Multi Sectors,North America,Developed,United States,Active
+USHY,iShares Broad USD High Yield Corporate Bond ETF,5705922295.38,Fixed Income,High Yield,North America,Developed,United States,Index
+EWZ,iShares MSCI Brazil ETF,5505943097.09,Equity,Large/Mid Cap,Latin America,Emerging,Brazil,Index
+IUSB,iShares Core Total USD Bond Market ETF,5423838122.81,Fixed Income,Multi Sectors,North America,Developed,United States,Index
+USIG,iShares Broad USD Investment Grade Corporate Bond ETF,5216581233.21,Fixed Income,Credit,North America,Developed,United States,Index
+IJS,iShares S&P Small-Cap 600 Value ETF,5139847757.91,Equity,Small Cap,North America,Developed,United States,Index
+EWY,iShares MSCI South Korea ETF,5105200624.91,Equity,Large/Mid Cap,Asia Pacific,Emerging,South Korea,Index
+IGV,iShares Expanded Tech-Software Sector ETF,4892211484.76,Equity,All Cap,North America,Developed,United States,Index
+SHYG,iShares 0-5 Year High Yield Corporate Bond ETF,4835562629.37,Fixed Income,High Yield,North America,Developed,United States,Index
+IJJ,iShares S&P Mid-Cap 400 Value ETF,4738231187.38,Equity,Mid Cap,North America,Developed,United States,Index
+IJT,iShares S&P Small-Cap 600 Growth ETF,4557013995.37,Equity,Small Cap,North America,Developed,United States,Index
+EZU,iShares MSCI Eurozone ETF,4432367324.929999,Equity,Large/Mid Cap,Europe,Developed,Broad,Index
+EWT,iShares MSCI Taiwan ETF,4297701262.9,Equity,Large/Mid Cap,Asia Pacific,Emerging,Taiwan,Index
+ICSH,iShares Ultra Short-Term Bond ETF,4290567370.21,Fixed Income,Multi Sectors,North America,Developed,United States,Active
+EEMV,iShares Edge MSCI Min Vol Emerging Markets ETF,4271302777.03,Equity,Large/Mid Cap,Global,Emerging,Broad,Index
+ISTB,iShares Core 1-5 Year USD Bond ETF,4270631009.22,Fixed Income,Multi Sectors,North America,Developed,United States,Index
+IXN,iShares Global Tech ETF,4260630025.51,Equity,All Cap,Global,Developed,Broad,Index
+AAXJ,iShares MSCI All Country Asia ex Japan ETF,4154150304.29,Equity,Large/Mid Cap,Asia Pacific,Emerging,Broad,Index
+IEUR,iShares Core MSCI Europe ETF,3644479481.05,Equity,All Cap,Europe,Developed,Broad,Index
+IDV,iShares International Select Dividend ETF,3563157240.29,Equity,All Cap,Global,Developed,Broad,Index
+SUB,iShares Short-Term National Muni Bond ETF,3546831740.84,Fixed Income,Municipals,North America,Developed,United States,Index
+ESGE,iShares ESG MSCI EM ETF,3541225382.86,Equity,Large/Mid Cap,Global,Emerging,Broad,Index
+SOXX,iShares PHLX Semiconductor ETF,3526708328.8100004,Equity,All Cap,North America,Developed,United States,Index
+IYR,iShares U.S. Real Estate ETF,3487682256.9100003,Real Estate,Real Estate Securities,North America,Developed,United States,Index
+FXI,iShares China Large-Cap ETF,3461566214.66,Equity,Large Cap,Asia Pacific,Emerging,China,Index
+IGF,iShares Global Infrastructure ETF,3261688987.54,Equity,All Cap,Global,Developed,Broad,Index
+ACWX,iShares MSCI ACWI ex U.S. ETF,3114962207.8100004,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+INDA,iShares MSCI India ETF,3028817756.8300004,Equity,Large/Mid Cap,Asia Pacific,Emerging,India,Index
+IDEV,iShares Core MSCI International Developed Markets ETF,2991431427.57,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+ITA,iShares U.S. Aerospace & Defense ETF,2990424465.15,Equity,All Cap,North America,Developed,United States,Index
+IWY,iShares Russell Top 200 Growth ETF,2964947480.07,Equity,Large Cap,North America,Developed,United States,Index
+ESGD,iShares ESG MSCI EAFE ETF,2924404005.11,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+XT,iShares Exponential Technologies ETF,2728809004.8,Equity,Large Cap,Global,Developed,Broad,Index
+EWG,iShares MSCI Germany ETF,2648498575.2799997,Equity,Large/Mid Cap,Europe,Developed,Germany,Index
+IGM,iShares Expanded Tech Sector ETF,2642360835.69,Equity,All Cap,North America,Developed,United States,Index
+IAGG,iShares Core International Aggregate Bond ETF,2632249712.77,Fixed Income,Multi Sectors,Global,Developed,Broad,Index
+STIP,iShares 0-5 Year TIPS Bond ETF,2546494710.06,Fixed Income,Inflation,North America,Developed,United States,Index
+IYH,iShares U.S. Healthcare ETF,2472572939.59,Equity,All Cap,North America,Developed,United States,Index
+SUSL,iShares ESG MSCI USA Leaders ETF,2466066647.11,Equity,Large/Mid Cap,North America,Developed,United States,Index
+IOO,iShares Global 100 ETF,2438992056.65,Equity,Large Cap,Global,Developed,Broad,Index
+HEFA,iShares Currency Hedged MSCI EAFE ETF,2322453861.86,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+IXJ,iShares Global Healthcare ETF,2306395366.73,Equity,All Cap,Global,Developed,Broad,Index
+EWU,iShares MSCI United Kingdom ETF,2234734061.3500004,Equity,Large/Mid Cap,Europe,Developed,United Kingdom,Index
+EWC,iShares MSCI Canada ETF,2232692352.3,Equity,Large/Mid Cap,North America,Developed,Canada,Index
+GVI,iShares Intermediate Government/Credit Bond ETF,2203254973.46,Fixed Income,Multi Sectors,North America,Developed,United States,Index
+DSI,iShares MSCI KLD 400 Social ETF,2140527533.55,Equity,Large/Mid Cap,North America,Developed,United States,Index
+REET,iShares Global REIT ETF,2091392713.6899998,Real Estate,Real Estate Securities,Global,Developed,Broad,Index
+ITB,iShares U.S. Home Construction ETF,2036368121.46,Equity,All Cap,North America,Developed,United States,Index
+SLQD,iShares 0-5 Year Investment Grade Corporate Bond ETF,1898119136.41,Fixed Income,Credit,North America,Developed,United States,Index
+ICF,iShares Cohen & Steers REIT ETF,1870713313.1399999,Real Estate,Real Estate Securities,North America,Developed,United States,Index
+IGLB,iShares Long-Term Corporate Bond ETF,1868664746.05,Fixed Income,Credit,North America,Developed,United States,Index
+EPP,iShares MSCI Pacific ex Japan ETF,1846281003.53,Equity,Large/Mid Cap,Asia Pacific,Developed,Broad,Index
+IYG,iShares U.S. Financial Services ETF,1813946586.2,Equity,All Cap,North America,Developed,United States,Index
+IQLT,iShares Edge MSCI Intl Quality Factor ETF,1743980067.09,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+JKE,iShares Morningstar Large-Cap Growth ETF,1741219784.43,Equity,Large Cap,North America,Developed,United States,Index
+EWL,iShares MSCI Switzerland ETF,1701819775,Equity,Large/Mid Cap,Europe,Developed,Switzerland,Index
+SUSA,iShares MSCI USA ESG Select ETF,1635050933.6399999,Equity,Large/Mid Cap,North America,Developed,United States,Index
+CMF,iShares California Muni Bond ETF,1603388607.05,Fixed Income,Municipals,North America,Developed,United States,Index
+IBDM,iBonds® Dec 2021 Term Corporate ETF,1498295956.96,Fixed Income,Credit,North America,Developed,United States,Index
+IXC,iShares Global Energy ETF,1480837193.8899999,Equity,All Cap,Global,Developed,Broad,Index
+IEV,iShares Europe ETF,1471386289.98,Equity,Large/Mid Cap,Europe,Developed,Broad,Index
+AOR,iShares Core Growth Allocation ETF,1449321303.23,Multi Asset,Static Allocation,Global,Developed,Broad,Index
+AIA,iShares Asia 50 ETF,1447109821.1499999,Equity,Large Cap,Asia Pacific,Developed,Broad,Index
+USRT,iShares Core U.S. REIT ETF,1433201619.03,Real Estate,Real Estate Securities,North America,Developed,United States,Index
+QLTA,iShares Aaa - A Rated Corporate Bond ETF,1418337488.7,Fixed Income,Credit,North America,Developed,United States,Index
+IYF,iShares U.S. Financials ETF,1402693335.93,Equity,All Cap,North America,Developed,United States,Index
+IBDN,iBonds® Dec 2022 Term Corporate ETF,1336766719.99,Fixed Income,Credit,North America,Developed,United States,Index
+EWH,iShares MSCI Hong Kong ETF,1327831368.07,Equity,Large/Mid Cap,Asia Pacific,Developed,Hong Kong,Index
+IYY,iShares Dow Jones U.S. ETF,1314679515.05,Equity,All Cap,North America,Developed,United States,Index
+TLH,iShares 10-20 Year Treasury Bond ETF,1291518147.02,Fixed Income,Government,North America,Developed,United States,Index
+AOM,iShares Core Moderate Allocation ETF,1262410513.54,Multi Asset,Static Allocation,Global,Developed,Broad,Index
+EWA,iShares MSCI Australia ETF,1235452062.37,Equity,Large/Mid Cap,Asia Pacific,Developed,Australia,Index
+IBDO,iBonds® Dec 2023 Term Corporate ETF,1188867296.6399999,Fixed Income,Credit,North America,Developed,United States,Index
+IBDL,iBonds® Dec 2020 Term Corporate ETF,1088272606.07,Fixed Income,Credit,North America,Developed,United States,Index
+ICLN,iShares Global Clean Energy ETF,1086809863.41,Equity,All Cap,Global,Developed,Broad,Index
+REM,iShares Mortgage Real Estate ETF,1083682312.07,Real Estate,Real Estate Securities,North America,Developed,United States,Index
+JKH,iShares Morningstar Mid-Cap Growth ETF,1068070524.43,Equity,Mid Cap,North America,Developed,United States,Index
+AOA,iShares Core Aggressive Allocation ETF,1049913780.8299999,Multi Asset,Static Allocation,Global,Developed,Broad,Index
+IYC,iShares U.S. Consumer Services ETF,1043443745.1700001,Equity,All Cap,North America,Developed,United States,Index
+IHF,iShares U.S. Healthcare Providers ETF,983857870.13,Equity,All Cap,North America,Developed,United States,Index
+IPAC,iShares Core MSCI Pacific ETF,950994571.3,Equity,All Cap,Asia Pacific,Developed,Broad,Index
+INTF,iShares Edge MSCI Multifactor Intl ETF,950577227.59,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+IGOV,iShares International Treasury Bond ETF,938774280.3499999,Fixed Income,Government,Global,Developed,Broad,Index
+ILF,iShares Latin America 40 ETF,937110701.43,Equity,Large Cap,Latin America,Emerging,Broad,Index
+IBDP,iBonds® Dec 2024 Term Corporate ETF,930647016.23,Fixed Income,Credit,North America,Developed,United States,Index
+URTH,iShares MSCI World ETF,922564139.3599999,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+ICVT,iShares Convertible Bond ETF,892686951.5,Fixed Income,Credit,North America,Developed,United States,Index
+IYJ,iShares U.S. Industrials ETF,863474402.02,Equity,All Cap,North America,Developed,United States,Index
+SMMV,iShares Edge MSCI Min Vol USA Small-Cap ETF,855137680.8599999,Equity,Small Cap,North America,Developed,United States,Index
+LRGF,iShares Edge MSCI Multifactor USA ETF,854816326.31,Equity,Large/Mid Cap,North America,Developed,United States,Index
+EWQ,iShares MSCI France ETF,829718892.72,Equity,Large/Mid Cap,Europe,Developed,France,Index
+JKD,iShares Morningstar Large-Cap ETF,820382668.7800001,Equity,Large Cap,North America,Developed,United States,Index
+SIZE,iShares Edge MSCI USA Size Factor ETF,815565806.51,Equity,Large/Mid Cap,North America,Developed,United States,Index
+EWW,iShares MSCI Mexico ETF,811094797.49,Equity,All Cap,Latin America,Emerging,Mexico,Index
+AGZ,iShares Agency Bond ETF,810190313,Fixed Income,Government,North America,Developed,United States,Index
+IDU,iShares U.S. Utilities ETF,800966659.11,Equity,All Cap,North America,Developed,United States,Index
+SGOV,iShares 0-3 Month Treasury Bond ETF,800123163.59,Fixed Income,Government,North America,Developed,United States,Index
+IWC,iShares Micro-Cap ETF,776845985.09,Equity,Small Cap,North America,Developed,United States,Index
+EUFN,iShares MSCI Europe Financials ETF,772645059.97,Equity,All Cap,Europe,Developed,Broad,Index
+IWL,iShares Russell Top 200 ETF,757772740.53,Equity,Large Cap,North America,Developed,United States,Index
+IYT,iShares Transportation Average ETF,755140440.26,Equity,All Cap,North America,Developed,United States,Index
+IBDQ,iBonds® Dec 2025 Term Corporate ETF,750758118.38,Fixed Income,Credit,North America,Developed,United States,Index
+GSG,iShares S&P GSCI Commodity-Indexed Trust,718851421.4399999,Commodity,Multi Commodity,Global,Developed,Broad,Index
+AOK,iShares Core Conservative Allocation ETF,705276578.58,Multi Asset,Static Allocation,Global,Developed,Broad,Index
+JKG,iShares Morningstar Mid-Cap ETF,672553971.47,Equity,Mid Cap,North America,Developed,United States,Index
+IWX,iShares Russell Top 200 Value ETF,671542188.31,Equity,Large Cap,North America,Developed,United States,Index
+DVYE,iShares Emerging Markets Dividend ETF,648132431.47,Equity,All Cap,Global,Emerging,Broad,Index
+LDEM,iShares ESG MSCI EM Leaders ETF,646483552.66,Equity,Large/Mid Cap,Global,Emerging,Broad,Index
+KXI,iShares Global Consumer Staples ETF,628336091.75,Equity,All Cap,Global,Developed,Broad,Index
+INDY,iShares India 50 ETF,597079616.58,Equity,Large Cap,Asia Pacific,Emerging,India,Index
+IYK,iShares U.S. Consumer Goods ETF,590285719.55,Equity,All Cap,North America,Developed,United States,Index
+HEZU,iShares Currency Hedged MSCI Eurozone ETF,579881198.4399999,Equity,Large/Mid Cap,Europe,Developed,Broad,Index
+SMLF,iShares Edge MSCI Multifactor USA Small-Cap ETF,572975781.24,Equity,Small Cap,North America,Developed,United States,Index
+EMGF,iShares Edge MSCI Multifactor Emerging Markets ETF,545690823.81,Equity,Large/Mid Cap,Global,Emerging,Broad,Index
+EEMA,iShares MSCI Emerging Markets Asia ETF,542212730.37,Equity,Large/Mid Cap,Asia Pacific,Emerging,Broad,Index
+RING,iShares MSCI Global Gold Miners ETF,532653367.63,Equity,All Cap,Global,Developed,Broad,Index
+EWS,iShares MSCI Singapore ETF,524039660.62,Equity,Large/Mid Cap,Asia Pacific,Developed,Singapore,Index
+KSA,iShares MSCI Saudi Arabia ETF,505068958.59,Equity,All Cap,Middle East and Africa,Emerging,Saudi Arabia,Index
+IBDR,iBonds® Dec 2026 Term Corporate ETF,497402875.91999996,Fixed Income,Credit,North America,Developed,United States,Index
+ERUS,iShares MSCI Russia ETF,493620139.53,Equity,Large/Mid Cap,Europe,Emerging,Russia,Index
+CNYA,iShares MSCI China A ETF,486030780.33,Equity,Large/Mid Cap,Asia Pacific,Emerging,China,Index
+SUSC,iShares ESG Aware USD Corporate Bond ETF,474556171.12,Fixed Income,Credit,North America,Developed,United States,Index
+EWP,iShares MSCI Spain ETF,473142613.31,Equity,Large/Mid Cap,Europe,Developed,Spain,Index
+NYF,iShares New York Muni Bond ETF,470363213.53,Fixed Income,Municipals,North America,Developed,United States,Index
+CMBS,iShares CMBS ETF,469917877.76,Fixed Income,Mortgages,North America,Developed,United States,Index
+IVLU,iShares Edge MSCI Intl Value Factor ETF,464566140,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+IYE,iShares U.S. Energy ETF,463945736.25,Equity,All Cap,North America,Developed,United States,Index
+JKF,iShares Morningstar Large-Cap Value ETF,463554250.71,Equity,Large Cap,North America,Developed,United States,Index
+ILTB,iShares Core 10+ Year USD Bond ETF,456538281.1,Fixed Income,Multi Sectors,North America,Developed,United States,Index
+THD,iShares MSCI Thailand ETF,454248723.18,Equity,All Cap,Asia Pacific,Emerging,Thailand,Index
+ECH,iShares MSCI Chile ETF,452698244.03,Equity,All Cap,Latin America,Emerging,Chile,Index
+CRBN,iShares MSCI ACWI Low Carbon Target ETF,447453864.09,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+LEMB,iShares J.P. Morgan EM Local Currency Bond ETF,443996319.37,Fixed Income,Government,Global,Emerging,Broad,Index
+IMTM,iShares Edge MSCI Intl Momentum Factor ETF,440524319.27,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+EAGG,iShares ESG Aware U.S. Aggregate Bond ETF,436912019.36,Fixed Income,Multi Sectors,North America,Developed,United States,Index
+GNMA,iShares GNMA Bond ETF,411488964.6,Fixed Income,Mortgages,North America,Developed,United States,Index
+IGE,iShares North American Natural Resources ETF,406104000.12,Equity,All Cap,North America,Developed,Broad,Index
+TFLO,iShares Treasury Floating Rate Bond ETF,402351160.42999995,Fixed Income,Government,North America,Developed,United States,Index
+MXI,iShares Global Materials ETF,373078123.48999995,Equity,All Cap,Global,Developed,Broad,Index
+IYZ,iShares U.S. Telecommunications ETF,361807444.46999997,Equity,All Cap,North America,Developed,United States,Index
+FM,iShares MSCI Frontier 100 ETF,359443859.02,Equity,All Cap,Global,Frontier,Broad,Index
+SUSB,iShares ESG Aware 1-5 Year USD Corporate Bond ETF,356697744.96999997,Fixed Income,Credit,North America,Developed,United States,Index
+REZ,iShares Residential Real Estate ETF,356241642.19,Real Estate,Real Estate Securities,North America,Developed,United States,Index
+IHE,iShares U.S. Pharmaceuticals ETF,351014059.86,Equity,All Cap,North America,Developed,United States,Index
+JKI,iShares Morningstar Mid-Cap Value ETF,350789742.06,Equity,Mid Cap,North America,Developed,United States,Index
+IBMK,iBonds® Dec 2022 Term Muni Bond ETF,347010815.07,Fixed Income,Municipals,North America,Developed,United States,Index
+TECB,U.S. Tech Breakthrough Multisector ETF,346909010.47999996,Equity,All Cap,North America,Developed,United States,Index
+ESML,iShares ESG MSCI USA Small-Cap ETF,343410629.90999997,Equity,All Cap,North America,Developed,United States,Index
+EWM,iShares MSCI Malaysia ETF,339249474.25,Equity,Large/Mid Cap,Asia Pacific,Emerging,Malaysia,Index
+IYM,iShares U.S. Basic Materials ETF,323010712.55,Equity,All Cap,North America,Developed,United States,Index
+IXP,iShares Global Comm Services ETF,317077609.90999997,Equity,All Cap,Global,Developed,Broad,Index
+EMHY,iShares J.P. Morgan EM High Yield Bond ETF,313526253.78999996,Fixed Income,High Yield,Global,Emerging,Broad,Index
+EZA,iShares MSCI South Africa ETF,312473264.82,Equity,Large/Mid Cap,Middle East and Africa,Emerging,South Africa,Index
+IEO,iShares U.S. Oil & Gas Exploration & Production ETF,309535048.3,Equity,All Cap,North America,Developed,United States,Index
+EIDO,iShares MSCI Indonesia ETF,307446452.39,Equity,All Cap,Asia Pacific,Emerging,Indonesia,Index
+IBDS,iBonds® Dec 2027 Term Corporate ETF,305196382.32,Fixed Income,Credit,North America,Developed,United States,Index
+IBMJ,iBonds® Dec 2021 Term Muni Bond ETF,304320396.64000005,Fixed Income,Municipals,North America,Developed,United States,Index
+IBMI,iBonds® Sep 2020 Term Muni Bond ETF,296807921.66,Fixed Income,Municipals,North America,Developed,United States,Index
+IYLD,iShares Morningstar Multi-Asset Income ETF,282267878.51,Multi Asset,Static Allocation,Global,Developed,Broad,Index
+JKL,iShares Morningstar Small-Cap Value ETF,275090421.97999996,Equity,Small Cap,North America,Developed,United States,Index
+EPOL,iShares MSCI Poland ETF,262687487.79,Equity,All Cap,Europe,Emerging,Poland,Index
+IFGL,iShares International Developed Real Estate ETF,259915452.13,Real Estate,Real Estate Securities,Global,Developed,Broad,Index
+PICK,iShares MSCI Global Metals & Mining Producers ETF,259473774.01,Equity,All Cap,Global,Developed,Broad,Index
+GBF,iShares Government/Credit Bond ETF,258619298.41,Fixed Income,Multi Sectors,North America,Developed,United States,Index
+IBML,iBonds® Dec 2023 Term Muni Bond ETF,252470433.32000002,Fixed Income,Municipals,North America,Developed,United States,Index
+HEWJ,iShares Currency Hedged MSCI Japan ETF,252146387.94,Equity,Large/Mid Cap,Asia Pacific,Developed,Japan,Index
+MEAR,iShares Short Maturity Municipal Bond ETF,250888935.37,Fixed Income,Municipals,North America,Developed,United States,Active
+JKK,iShares Morningstar Small-Cap Growth ETF,250738441.01,Equity,Small Cap,North America,Developed,United States,Index
+IXG,iShares Global Financials ETF,248089075.41,Equity,All Cap,Global,Developed,Broad,Index
+FALN,iShares Fallen Angels USD Bond ETF,241447343.56,Fixed Income,High Yield,North America,Developed,United States,Index
+IAT,iShares U.S. Regional Banks ETF,239541177.19,Equity,All Cap,North America,Developed,United States,Index
+LQDH,iShares Interest Rate Hedged Corporate Bond ETF,239309040.64,Fixed Income,Credit,North America,Developed,United States,Active
+SLVP,iShares MSCI Global Silver and Metals Miners ETF,234201743.7,Equity,All Cap,Global,Developed,Broad,Index
+RXI,iShares Global Consumer Discretionary ETF,231402457.13,Equity,All Cap,Global,Developed,Broad,Index
+EUSA,iShares MSCI USA Equal Weighted ETF,223876542.4,Equity,Large/Mid Cap,North America,Developed,United States,Index
+EWI,iShares MSCI Italy ETF,217059982.91,Equity,Large/Mid Cap,Europe,Developed,Italy,Index
+EWN,iShares MSCI Netherlands ETF,213192311.67,Equity,All Cap,Europe,Developed,Netherlands,Index
+WOOD,iShares Global Timber & Forestry ETF,212450581.44,Equity,All Cap,Global,Developed,Broad,Index
+EEMS,iShares MSCI Emerging Markets Small-Cap ETF,208356644.88000003,Equity,Small Cap,Global,Emerging,Broad,Index
+EWD,iShares MSCI Sweden ETF,207547530.70999998,Equity,Large/Mid Cap,Europe,Developed,Sweden,Index
+BYLD,iShares Yield Optimized Bond ETF,200696741.73999998,Fixed Income,Multi Sectors,North America,Developed,United States,Index
+COMT,iShares Commodities Select Strategy ETF,200536822.33,Commodity,Multi Commodity,Global,Developed,Broad,Active
+EXI,iShares Global Industrials ETF,200263443.10999998,Equity,All Cap,Global,Developed,Broad,Index
+CEMB,iShares J.P. Morgan EM Corporate Bond ETF,191282590.89000002,Fixed Income,Credit,Global,Emerging,Broad,Index
+JKJ,iShares Morningstar Small-Cap ETF,190724271.89000002,Equity,Small Cap,North America,Developed,United States,Index
+SMIN,iShares MSCI India Small-Cap ETF,184287923.19,Equity,Small Cap,Asia Pacific,Emerging,India,Index
+HEEM,iShares Currency Hedged MSCI Emerging Markets ETF,183868705.62,Equity,Large/Mid Cap,Global,Emerging,Broad,Index
+IBDT,iBonds® Dec 2028 Term Corporate ETF,176771154.9,Fixed Income,Credit,North America,Developed,United States,Index
+GHYG,iShares US & Intl High Yield Corp Bond ETF,174842013.96,Fixed Income,High Yield,Global,Developed,Broad,Index
+TUR,iShares MSCI Turkey ETF,174470481.51,Equity,All Cap,Europe,Emerging,Turkey,Index
+IRBO,iShares Robotics and Artificial Intelligence Multisector ETF,167871875.45000002,Equity,All Cap,Global,Developed,Broad,Index
+WPS,iShares International Developed Property ETF,165568916.12,Real Estate,Real Estate Securities,Global,Developed,Broad,Index
+IGEB,iShares Edge Investment Grade Enhanced Bond ETF,159006238.39000002,Fixed Income,Credit,North America,Developed,United States,Index
+TOK,iShares MSCI Kokusai ETF,157641959.25,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+SDG,iShares MSCI Global Impact ETF,149096899.99,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+IBMM,iBonds® Dec 2024 Term Muni Bond ETF,147905603.13,Fixed Income,Municipals,North America,Developed,United States,Index
+IEZ,iShares U.S. Oil Equipment & Services ETF,145456775.02,Equity,All Cap,North America,Developed,United States,Index
+IDNA,iShares Genomics Immunology and Healthcare ETF,145122027.15,Equity,All Cap,Global,Developed,Broad,Index
+JXI,iShares Global Utilities ETF,144761193.22,Equity,All Cap,Global,Developed,Broad,Index
+ENZL,iShares MSCI New Zealand ETF,143616537.76999998,Equity,All Cap,Asia Pacific,Developed,New Zealand,Index
+BKF,iShares MSCI BRIC ETF,143220632.52,Equity,Large/Mid Cap,Global,Emerging,Broad,Index
+FIBR,iShares Edge U.S. Fixed Income Balanced Risk ETF,132659418.85,Fixed Income,Multi Sectors,North America,Developed,United States,Index
+IEUS,iShares MSCI Europe Small-Cap ETF,131108635.41000001,Equity,Small Cap,Europe,Developed,Broad,Index
+IMTB,iShares Core 5-10 Year USD Bond ETF,130997656.13,Fixed Income,Multi Sectors,North America,Developed,United States,Index
+ISCF,iShares Edge MSCI Multifactor Intl Small-Cap ETF,127722616.05,Equity,Small Cap,Global,Developed,Broad,Index
+EPHE,iShares MSCI Philippines ETF,119928246.74000001,Equity,All Cap,Asia Pacific,Emerging,Philippines,Index
+ACWF,iShares Edge MSCI Multifactor Global ETF,118005337.47,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+IHAK,iShares Cybersecurity and Tech ETF,112184494.27,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+IAI,iShares U.S. Broker-Dealers & Securities Exchanges ETF,108912423.28,Equity,All Cap,North America,Developed,United States,Index
+EIS,iShares MSCI Israel ETF,103848597.91000001,Equity,All Cap,Europe,Developed,Israel,Index
+BGRN,iShares Global Green Bond ETF,99257180.08,Fixed Income,Multi Sectors,Global,Developed,Broad,Index
+EWZS,iShares MSCI Brazil Small-Cap ETF,98478366.35,Equity,Small Cap,Latin America,Emerging,Brazil,Index
+SMMD,iShares Russell 2500 ETF,92756231.61999999,Equity,Mid/Small Cap,North America,Developed,United States,Index
+JPXN,iShares JPX-Nikkei 400 ETF,92557515.8,Equity,Large/Mid Cap,Asia Pacific,Developed,Japan,Index
+DYNF,BlackRock U.S. Equity Factor Rotation ETF,90042480.17999999,Equity,Large/Mid Cap,North America,Developed,United States,Active
+IBMN,iBonds® Dec 2025 Term Muni Bond ETF,85864047.61999999,Fixed Income,Municipals,North America,Developed,United States,Index
+IETC,iShares Evolved U.S. Technology ETF,84987413.8,Equity,All Cap,North America,Developed,United States,Active
+QAT,iShares MSCI Qatar ETF,84963448.63,Equity,All Cap,Middle East and Africa,Emerging,Qatar,Index
+IGRO,iShares International Dividend Growth ETF,84445764.27,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+EDEN,iShares MSCI Denmark ETF,83425801.55,Equity,All Cap,Europe,Developed,Denmark,Index
+EPU,iShares MSCI Peru ETF,81751109.7,Equity,All Cap,Latin America,Emerging,Peru,Index
+HEWG,iShares Currency Hedged MSCI Germany ETF,78042804.51,Equity,Large/Mid Cap,Europe,Developed,Germany,Index
+EMXC,iShares MSCI Emerging Markets ex China ETF,75503237.86999999,Equity,All Cap,Global,Emerging,Broad,Index
+HAWX,iShares Currency Hedged MSCI ACWI ex U.S. ETF,74338372.97,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+IBDD,iBonds® Mar 2023 Term Corporate ETF,73870161.47,Fixed Income,Credit,North America,Developed,United States,Index
+HYGH,iShares Interest Rate Hedged High Yield Bond ETF,70756914.03,Fixed Income,High Yield,North America,Developed,United States,Active
+IBDU,iBonds® Dec 2029 Term Corporate ETF,67760662.02,Fixed Income,Credit,North America,Developed,United States,Index
+IAK,iShares U.S. Insurance ETF,65527915.11,Equity,All Cap,North America,Developed,United States,Index
+SCJ,iShares MSCI Japan Small-Cap ETF,61580424.53,Equity,Small Cap,Asia Pacific,Developed,Japan,Index
+EWUS,iShares MSCI United Kingdom Small-Cap ETF,60401871.46,Equity,Small Cap,Europe,Developed,United Kingdom,Index
+ISHG,iShares 1-3 Year International Treasury Bond ETF,57376543.75,Fixed Income,Government,Global,Developed,Broad,Index
+FILL,iShares MSCI Global Energy Producers ETF,53121198.47,Equity,All Cap,Global,Developed,Broad,Index
+EIRL,iShares MSCI Ireland ETF,53026724.8,Equity,All Cap,Europe,Developed,Ireland,Index
+IGN,iShares North American Tech-Multimedia Networking ETF,51803451.87,Equity,All Cap,North America,Developed,United States,Index
+HYXE,iShares iBoxx $ High Yield ex Oil & Gas Corporate Bond ETF,51210034.220000006,Fixed Income,High Yield,North America,Developed,United States,Index
+ECNS,iShares MSCI China Small-Cap ETF,51043697.63,Equity,Small Cap,Asia Pacific,Emerging,China,Index
+EWO,iShares MSCI Austria ETF,49627943.4,Equity,All Cap,Europe,Developed,Austria,Index
+HYXU,iShares International High Yield Bond ETF,47591524.949999996,Fixed Income,High Yield,Global,Developed,Broad,Index
+HSCZ,iShares Currency Hedged MSCI EAFE Small-Cap ETF,46915183.349999994,Equity,Small Cap,Global,Developed,Broad,Index
+IBMQ,iBonds® Dec 2028 Term Muni Bond ETF,46863455.379999995,Fixed Income,Municipals,North America,Developed,United States,Index
+IBMO,iBonds® Dec 2026 Term Muni Bond ETF,40484681.54,Fixed Income,Municipals,North America,Developed,United States,Index
+HYDB,iShares Edge High Yield Defensive Bond ETF,39250098.29000001,Fixed Income,High Yield,North America,Developed,United States,Index
+CMDY,iShares Bloomberg Roll Select Commodity Strategy ETF,39014816.42,Commodity,Multi Commodity,Global,Developed,Broad,Active
+UAE,iShares MSCI UAE ETF,36967286.36,Equity,All Cap,Middle East and Africa,Emerging,United Arab Emirates,Index
+ENOR,iShares MSCI Norway ETF,36744820.94,Equity,All Cap,Europe,Developed,Norway,Index
+IPFF,iShares International Preferred Stock ETF,36687080.53,Equity,All Cap,Global,Developed,Broad,Index
+IDRV,iShares Self-Driving EV and Tech ETF,35384697.37,Equity,All Cap,Global,Developed,Broad,Index
+DIVB,iShares U.S. Dividend and Buyback ETF,35168770.46,Equity,All Cap,North America,Developed,United States,Index
+IGBH,iShares Interest Rate Hedged Long-Term Corporate Bond ETF,35079034.6,Fixed Income,Credit,North America,Developed,United States,Active
+EWK,iShares MSCI Belgium ETF,33055174.73,Equity,All Cap,Europe,Developed,Belgium,Index
+IBMP,iBonds® Dec 2027 Term Muni Bond ETF,31326986.41,Fixed Income,Municipals,North America,Developed,United States,Index
+EUSB,iShares ESG Advanced Total USD Bond Market ETF,30304349.34,Fixed Income,Multi Sectors,North America,Developed,United States,Index
+IBDV,iShares® iBonds® Dec 2030 Term Corporate ETF,29675224.97,Fixed Income,Credit,North America,Developed,United States,Index
+EWGS,iShares MSCI Germany Small-Cap ETF,28453036.17,Equity,Small Cap,Europe,Developed,Germany,Index
+IBCE,iBonds® Mar 2023 Term Corporate ex-Financials ETF,26375697.45,Fixed Income,Credit,North America,Developed,United States,Index
+VEGI,iShares MSCI Global Agriculture Producers ETF,25217418.830000002,Equity,All Cap,Global,Developed,Broad,Index
+EFNL,iShares MSCI Finland ETF,24256990.630000003,Equity,All Cap,Europe,Developed,Finland,Index
+DVYA,iShares Asia/Pacific Dividend ETF,24016044.56,Equity,All Cap,Asia Pacific,Developed,Broad,Index
+EUMV,iShares Edge MSCI Min Vol Europe ETF,23748078.47,Equity,Large/Mid Cap,Europe,Developed,Broad,Index
+IFEU,iShares Europe Developed Real Estate ETF,22969501.51,Real Estate,Real Estate Securities,Europe,Developed,Broad,Index
+IEIH,iShares Evolved U.S. Innovative Healthcare ETF,22728299.69,Equity,All Cap,North America,Developed,United States,Active
+IBTJ,iShares® iBonds® Dec 2029 Term Treasury ETF,21221712.259999998,Fixed Income,Government,North America,Developed,United States,Index
+FOVL,iShares Focused Value Factor ETF,21042311.27,Equity,Large/Mid Cap,North America,Developed,United States,Index
+IBTG,iShares® iBonds® Dec 2026 Term Treasury ETF,20992697.18,Fixed Income,Government,North America,Developed,United States,Index
+ISZE,iShares Edge MSCI Intl Size Factor ETF,20909085.439999998,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+IAUF,iShares Gold Strategy ETF,19430303.57,Commodity,Precious Metals,Global,Developed,Broad,Active
+IFRA,iShares U.S. Infrastructure ETF,19338642.5,Equity,All Cap,North America,Developed,United States,Index
+JPMV,iShares Edge MSCI Min Vol Japan ETF,18401435,Equity,Large/Mid Cap,Asia Pacific,Developed,Japan,Index
+ICOL,iShares MSCI Colombia ETF,17929937.97,Equity,All Cap,Latin America,Emerging,Colombia,Index
+IBHA,iBonds® 2021 Term High Yield and Income ETF,16860748.279999997,Fixed Income,High Yield,North America,Developed,United States,Index
+IBHB,iBonds® 2022 Term High Yield and Income ETF,16613958.219999999,Fixed Income,High Yield,North America,Developed,United States,Index
+IBTF,iShares® iBonds® Dec 2025 Term Treasury ETF,15680776,Fixed Income,Government,North America,Developed,United States,Index
+IEHS,iShares Evolved U.S. Healthcare Staples ETF,15208649.04,Equity,All Cap,North America,Developed,United States,Active
+IBHE,iBonds® 2025 Term High Yield and Income ETF,14557036.4,Fixed Income,High Yield,North America,Developed,United States,Index
+IBHC,iBonds® 2023 Term High Yield and Income ETF,14268621.2,Fixed Income,High Yield,North America,Developed,United States,Index
+IBTD,iShares® iBonds® Dec 2023 Term Treasury ETF,14145535.96,Fixed Income,Government,North America,Developed,United States,Index
+EMIF,iShares Emerging Markets Infrastructure ETF,14138252.8,Equity,All Cap,Global,Emerging,Broad,Index
+IBTI,iShares® iBonds® Dec 2028 Term Treasury ETF,13248674.02,Fixed Income,Government,North America,Developed,United States,Index
+IBTH,iShares® iBonds® Dec 2027 Term Treasury ETF,13164541.3,Fixed Income,Government,North America,Developed,United States,Index
+IEDI,iShares Evolved U.S. Discretionary Spending ETF,12535641.39,Equity,All Cap,North America,Developed,United States,Active
+HEWU,iShares Currency Hedged MSCI United Kingdom ETF,12008929.59,Equity,Large/Mid Cap,Europe,Developed,United Kingdom,Index
+IBTE,iShares® iBonds® Dec 2024 Term Treasury ETF,11679306.19,Fixed Income,Government,North America,Developed,United States,Index
+HEWC,iShares Currency Hedged MSCI Canada ETF,11612675.08,Equity,Large/Mid Cap,North America,Developed,Canada,Index
+DMXF,iShares ESG Advanced MSCI EAFE ETF,11085395.55,Equity,Large Cap,Global,Developed,Broad,Index
+IEME,iShares Evolved U.S. Media and Entertainment ETF,10883874.229999999,Equity,All Cap,North America,Developed,United States,Active
+IECS,iShares Evolved U.S. Consumer Staples ETF,10116971.83,Equity,All Cap,North America,Developed,United States,Active
+IBHD,iBonds® 2024 Term High Yield and Income ETF,9463994.129999999,Fixed Income,High Yield,North America,Developed,United States,Index
+HEWL,iShares Currency Hedged MSCI Switzerland ETF,9017873.31,Equity,Large/Mid Cap,Europe,Developed,Switzerland,Index
+LQDI,iShares Inflation Hedged Corporate Bond ETF,8310501.6899999995,Fixed Income,Credit,North America,Developed,United States,Active
+AGT,iShares MSCI Argentina and Global Exposure ETF,7807251.68,Equity,All Cap,Latin America,Frontier,Argentina,Index
+IBTA,iShares® iBonds® Dec 2021 Term Treasury ETF,7606505.41,Fixed Income,Government,North America,Developed,United States,Index
+EWJV,iShares MSCI Japan Value ETF,6880738.2,Equity,Large/Mid Cap,Asia Pacific,Developed,Japan,Index
+EWJE,iShares MSCI Japan Equal Weighted ETF,6729922.2,Equity,Large/Mid Cap,Asia Pacific,Developed,Japan,Index
+STSB,iShares Factors US Small Blend Style ETF,6611147.159999999,Equity,Small Cap,North America,Developed,United States,Index
+STLV,iShares Factors US Value Style ETF,6493434.609999999,Equity,Large/Mid Cap,North America,Developed,United States,Index
+STMB,iShares Factors US Mid Blend Style ETF,6210198.619999999,Equity,Mid Cap,North America,Developed,United States,Index
+STLC,iShares Factors US Blend Style ETF,6175220.96,Equity,Large/Mid Cap,North America,Developed,United States,Index
+EMBH,iShares Interest Rate Hedged Emerging Markets Bond ETF,5720486.81,Fixed Income,Government,Global,Emerging,Broad,Active
+STLG,iShares Factors US Growth Style ETF,5592203.54,Equity,Large/Mid Cap,North America,Developed,United States,Index
+USXF,iShares ESG Advanced MSCI USA ETF,5529511.1,Equity,Large Cap,North America,Developed,United States,Index
+DEFA,iShares Adaptive Currency Hedged MSCI EAFE ETF,5482305.64,Equity,Large/Mid Cap,Global,Developed,Broad,Index
+HEWP,iShares Currency Hedged MSCI Spain ETF,4383763.430000001,Equity,Large/Mid Cap,Europe,Developed,Spain,Index
+IEFN,iShares Evolved U.S. Financials ETF,4288111.48,Equity,All Cap,North America,Developed,United States,Active
+AMCA,iShares Russell 1000 Pure U.S. Revenue ETF,4257764.17,Equity,Large/Mid Cap,North America,Developed,United States,Index
+EAOA,iShares ESG Aware Aggressive Allocation ETF,4125415.36,Multi Asset,Multi Strategy,North America,Developed,United States,Index
+EAOR,iShares ESG Aware Growth Allocation ETF,4044698.2,Multi Asset,Multi Strategy,North America,Developed,United States,Index
+EAOM,iShares ESG Aware Moderate Allocation ETF,3961396.23,Multi Asset,Multi Strategy,North America,Developed,United States,Index
+EAOK,iShares ESG Aware Conservative Allocation ETF,3915353.3,Multi Asset,Multi Strategy,North America,Developed,United States,Index
+IBTB,iShares® iBonds® Dec 2022 Term Treasury ETF,3834053.3499999996,Fixed Income,Government,North America,Developed,United States,Index
+HJPX,iShares Currency Hedged JPX-Nikkei 400 ETF,2894105.4499999997,Equity,Large/Mid Cap,Asia Pacific,Developed,Japan,Index
+MIDF,iShares Edge MSCI Multifactor USA Mid-Cap ETF,2763392.8099999996,Equity,Mid Cap,North America,Developed,United States,Index
+IBTK,iShares® iBonds® Dec 2030 Term Treasury ETF,2487718.75,Fixed Income,Government,North America,Developed,United States,Index
+HAUD,iShares Currency Hedged MSCI Australia ETF,2436026.73,Equity,Large/Mid Cap,Asia Pacific,Developed,Australia,Index
+HEWY,iShares Currency Hedged MSCI South Korea ETF,2370987.46,Equity,Large/Mid Cap,Asia Pacific,Emerging,South Korea,Index
+HEWI,iShares Currency Hedged MSCI Italy ETF,1577410.36,Equity,Large/Mid Cap,Europe,Developed,Italy,Index
+HEWW,iShares Currency Hedged MSCI Mexico ETF,719487.3400000001,Equity,Large/Mid Cap,Latin America,Emerging,Mexico,Index
