@@ -1,0 +1,83 @@
+---
+title: "Flex Report"
+output: 
+  flexdashboard::flex_dashboard:
+    logo: zg_logo_small.png
+    css: style_slim.css
+---
+
+<script src="script_slim.js"></script>
+
+```{r}
+zgtools::zg_core_libs()
+
+devtools::load_all()
+
+p <- mtcars %>% 
+  plot_ly(x = ~mpg,y = ~cyl) %>% 
+  plotly_elegant(margin = NULL)
+
+```
+
+
+
+Page 1
+=====================================  
+    
+Column {data-width=600}
+-------------------------------------
+
+### Chart 1    
+
+```{r}
+
+p
+
+```
+   
+Column {data-width=400}
+-------------------------------------
+   
+### Chart 2
+
+```{r}
+p
+
+```   
+ 
+### Chart 3
+    
+```{r}
+p
+
+```
+
+Page 2 {data-orientation=rows}
+=====================================     
+   
+Row {data-height=600}
+-------------------------------------
+
+### Chart 1
+
+```{r}
+p
+
+```
+
+Row {data-height=400}
+-------------------------------------
+   
+### Chart 2
+
+```{r}
+p
+
+```   
+    
+### Chart 3
+
+```{r}
+
+p
+```

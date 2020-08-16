@@ -1,0 +1,47 @@
+/*General
+----------------*/
+
+body{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Century Gothic';
+  color: #fff;
+    font-size: 16px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background: #1f1f1e;
+}
+
+/*Navbar
+----------------*/
+
+.navbar-inverse {
+  background-color: #1f1f1e;
+    border-color: #1f1f1e;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    color: #ffffff;
+    background-color: #BA996E;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.navbar-logo img{
+  max-height: 45px;
+}
+
+/*Charts
+----------------*/
+
+
+.chart-wrapper, .nav-tabs-custom, .sbframe-commentary {
+    background: #1f1f1e;
+}
+
+.chart-title {
+    color: #ffffff;
+}
