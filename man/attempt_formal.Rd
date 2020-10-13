@@ -16,5 +16,6 @@ rewrites file with changes
 tries to fix unnamed package functions
 }
 \examples{
-attempt_formal(f_path)
+attempt_formal(here::here("R","new_project.R"))
+
 }

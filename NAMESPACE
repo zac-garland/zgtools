@@ -3,6 +3,7 @@
 export("%>%")
 export(add_recession_bars)
 export(attempt_formal)
+export(create_tribble)
 export(detach_packages)
 export(formal_args)
 export(highlight_load)
