@@ -4,7 +4,8 @@
 #' @return rewrites file with changes
 #' @export
 #' @examples
-#' attempt_formal(f_path)
+#' attempt_formal(here::here("R","new_project.R"))
+#'
 attempt_formal <- function(f_path) {
   replace_dat <- NCmisc::list.functions.in.file(f_path) %>%
     as.data.frame() %>%
