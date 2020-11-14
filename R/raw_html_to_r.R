@@ -134,9 +134,7 @@ preprocess_html <- function(raw_html, length_of_param = 30) {
     dplyr::group_by(rowid) %>%
     dplyr::mutate(function_arg = ifelse(!is.na(function_arg), paste0(function_arg, "_", dplyr::row_number()), NA_character_)) %>%
     dplyr::ungroup() %>%
-   dplyr::group_by(function_arg) %>%
    dplyr::mutate(function_arg = ifelse(!is.na(function_arg), paste0(function_arg, "_", dplyr::row_number()), NA_character_)) %>%
-   dplyr::ungroup() %>%
     dplyr::mutate(function_examp = dplyr::case_when(
       !is.na(function_arg) ~ paste(function_arg, "=", shQuote(stringr::str_sub(stringr::str_replace(line, "\\)", ""), 1, length_of_param)))
     )) %>%
