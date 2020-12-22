@@ -14,7 +14,7 @@ new_project <- function(package_name, author_name = "First Last", email = "") {
 
   if (!dir.exists(proj_path)) dir.create(proj_path)
 
-  new_dir <- file.path(proj_path, make.names(str_to_lower(package_name)))
+  new_dir <- file.path(proj_path, make.names(stringr::str_to_lower(package_name)))
 
   package_name <- stringr::str_replace_all(package_name, "_", ".")
 
