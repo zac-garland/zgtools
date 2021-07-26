@@ -1,64 +1,38 @@
-#' zg_core_libs
-#' loads favorite functions
-#'
-#' @param core condensed packages = T all favs = F
-#' @param highlight highlights all function names within code in Rmd
-#' @export
-#' @examples
-#' zg_core_libs(core = T, highlight = F)
+.onAttach <- function(...){
+  zg_attach()
+}
 
-zg_core_libs <- function(core = T, highlight = F) {
-  if (core) {
-    if (highlight) {
-      highlight_load(
-        here, htmlwidgets,
-        janitor, lubridate,
-        kableExtra, pacman,
-        plotly, readxl,
-        rvest, shiny,
-        tidyquant, tidyverse
-      )
-    } else {
-      pacman::p_load(
-        here, htmlwidgets,
-        janitor, lubridate,
-        kableExtra, pacman,
-        plotly, readxl,
-        rvest, shiny,
-        tidyquant, tidyverse
-      )
-    }
-  } else {
-    if (highlight) {
-      highlight_load(
-        clipr, flexdashboard,
-        here, highcharter,
-        htmlwidgets, janitor,
-        lubridate, kableExtra,
-        pacman, plotly,
-        readxl, rhandsontable,
-        rvest, shiny,
-        shinycssloaders, shinydashboard,
-        shinyWidgets, shinybusy,
-        styler, tidyquant,
-        tidyverse
-      )
-    } else {
-      pacman::p_load(
-        clipr, flexdashboard,
-        here, highcharter,
-        htmlwidgets, janitor,
-        lubridate, kableExtra,
-        pacman, plotly,
-        readxl, rhandsontable,
-        rvest, shiny,
-        shinycssloaders, shinydashboard,
-        shinyWidgets, shinybusy,
-        styler, tidyquant,
-        tidyverse
-      )
-    }
-  }
+
+core <- c("plotly","htmltools","janitor","lubridate","readxl","rvest","shiny","tidyquant","tidyverse","highcharter","reactable","dplyr","tidyr")
+
+
+
+core_unloaded <- function(){
+  search <- paste0("package:",core)
+  core[!search %in% search()]
+}
+
+same_library <- function(pkg){
+  loc <- if (pkg %in% loadedNamespaces()) dirname(getNamespaceInfo(pkg,"path"))
+
+  do.call(
+    "library",
+    list(pkg, lib.loc = loc, character.only = TRUE, warn.conflicts = FALSE)
+  )
+
+}
+
+
+zg_attach <- function(){
+  to_load <- core_unloaded()
+  if(length(to_load)==0)
+    return(invisible())
+
+  suppressPackageStartupMessages(
+    lapply(to_load,same_library)
+  )
+
+  invisible()
 }
 
 

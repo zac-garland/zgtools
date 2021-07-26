@@ -4,7 +4,11 @@
 \alias{new_project}
 \title{Easy function to create R package from a function}
 \usage{
-new_project(package_name, author_name = "First Last", email = "")
+new_project(
+  package_name,
+  author_name = "Zac Garland",
+  email = "zachary.garland@outlook.com"
+)
 }
 \arguments{
 \item{package_name}{package name}

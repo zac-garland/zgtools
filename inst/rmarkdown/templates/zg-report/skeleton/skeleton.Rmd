@@ -4,10 +4,10 @@ output:
     html_document:
       bootstrap_version: 4-3
       code_folding: hide
-      css: style_slim.css
+      css: assets/style_slim.css
       df_print: paged
       includes:
-        before_body: header.html
+        before_body: assets/header.html
 ---
 
 ```{r setup, include=FALSE}

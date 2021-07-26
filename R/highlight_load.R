@@ -15,8 +15,7 @@ register_keywords <- function(functions_to_include) {
     "e: \"'\"", "}]", "}]", "}", "}); </script>", "<script>hljs.initHighlightingOnLoad();</script>",
     ""
   ) %>%
-    shiny::HTML() %>%
-    shiny::tags$script()
+    shiny::HTML()
 }
 
 #' registers r functions in env with highlight.js
@@ -24,13 +23,8 @@ register_keywords <- function(functions_to_include) {
 #' @param ... packages to load and highlight
 #' @export
 #' @examples
-#' highlight_load(tidyverse, stats)
-highlight_load <- function(...) {
-  packages <- as.character(match.call(expand.dots = FALSE)[[2]])
-
-  pacman::p_load(
-    char = packages
-  )
+#' highlight_key_words()
+highlight_key_words <- function(...) {
 
   package_names <- .packages()
   package_names <- package_names[!(package_names %in% c("stats", "graphics", "grDevices", "utils", "datasets", "methods", "base"))]

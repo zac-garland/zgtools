@@ -2,7 +2,7 @@
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,h6, .h6 {
     margin-top: auto;
-    font-family: 'Century Gothic';
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
     font-size: 1.1em;
     color: #Ba996E;
 }
@@ -14,7 +14,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,h6, .h6 {
 body{
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Century Gothic';
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
     color: #fff;
     font-size: 16px;
     padding-right: 15px;

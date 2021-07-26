@@ -6,7 +6,7 @@
 #' @export
 #' @examples
 #' new_project(package_name, author_name = "First Last", email = "")
-new_project <- function(package_name, author_name = "First Last", email = "") {
+new_project <- function(package_name, author_name = "Zac Garland", email = "zachary.garland@outlook.com") {
 
   package_name <- stringr::str_to_lower(package_name)
 
