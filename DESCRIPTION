@@ -25,6 +25,7 @@ Imports:
   magrittr,
   pacman,
   plotly,
+  reactable,
   readxl,
   rhandsontable,
   rstudioapi,
